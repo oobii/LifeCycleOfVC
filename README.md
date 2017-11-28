@@ -16,11 +16,19 @@ If your work needs to be performed each time the view appears—but may require 
 Use the viewDidAppear(_:) method for starting an animation or for other <b>long-running code</b>, such as fetching data.
 <br>
 
-
 <b>viewWillDisappear(_:)</b><br>
+s called before the view disappears from the screen. This method executes when the user navigates away from the screen by tapping the back button, switching tabs, or presenting or dismissing a modal screen. You can use the viewWillDisappear(_:) method for saving edits, hiding the keyboard, or canceling network requests.
+<br>
+
 <b>viewDidDisappear(_:)</b><br><br>
+is called after the view disappears from the screen—typically after the user has navigated to a new view. If this method executes, it is certain the view has disappeared. As such, this method gives you an opportunity to stop services related to the view, for example, playing audio or removing notification observers.
+<br>
 
 Call the surepclass version of the methods, i.e.<br>
 <b>super.viewDidLoad()</b><br>
+
+In the example for your view to disappear, you'll need to add a second view controller. Otherwise, there'd be no way to navigate from the current view.<br>
+
+
 
 
