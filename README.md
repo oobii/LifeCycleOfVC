@@ -11,7 +11,7 @@ These methods include:<br>
 <b>viewWillDisappear(_:)</b><br>
 <b>viewDidDisappear(_:)</b><br><br>
 
-Call the surepclass version of the methods<br>
+Call the surepclass version of the methods, i.e.<br>
 <b>super.viewDidLoad()</b><br>
 
 
