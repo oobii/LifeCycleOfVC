@@ -13,7 +13,7 @@ This is called right before the view appears on the screen. This is an excellent
 
 <b>viewDidAppear(_:)</b><br>
 If your work needs to be performed each time the view appears—but may require more than a couple of seconds—you'll want to place it in viewDidAppear. This way, your view will display quickly as your function continues to execute.
-Use the viewDidAppear(_:) method for starting an animation or for other long-running code, such as fetching data.
+Use the viewDidAppear(_:) method for starting an animation or for other <b>long-running code</b>, such as fetching data.
 <br>
 
 
