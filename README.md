@@ -40,7 +40,8 @@ Second VC - viewWillAppear<br>
 First VC - viewWillDisappear<br>
 First VC - viewDidDisappear<br>
 Second VC - viewDidAppear<br>
-
+<br>
+![App screen](https://github.com/oobii/LifeCycleOfVC/blob/master/LifeCycleOfVC.png)
 
 
 
