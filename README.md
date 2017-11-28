@@ -7,6 +7,10 @@ For work that will be performed multiple times, your app can rely on view event 
 
 These methods include:<br>
 <b>viewWillAppear(_:)</b><br>
+This is called right before the view appears on the screen. This is an excellent place to add work that needs to be performed before the view is displayed (and every time it's displayed) to the user. For example, if your view displays information relative to the user's location, you may want to request the location in viewWillAppear. That way, the view can be updated to take advantage of the new location. Other tasks include: starting network requests, refreshing or updating views (such as the status bar, navigation bar, or table views), and adjusting to new screen orientations.
+<br>
+
+
 <b>viewDidAppear(_:)</b><br>
 <b>viewWillDisappear(_:)</b><br>
 <b>viewDidDisappear(_:)</b><br><br>
