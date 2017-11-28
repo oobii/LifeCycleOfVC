@@ -29,6 +29,19 @@ Call the surepclass version of the methods, i.e.<br>
 
 In the example for your view to disappear, you'll need to add a second view controller. Otherwise, there'd be no way to navigate from the current view.<br>
 
+The view controller won't load its view until the view needs to be displayed to the user.<br>
+Running the app:<br>
+First VC - viewDidLoad<br>
+First VC - viewWillAppear<br>
+First VC - viewDidAppear<br>
+<br>
+After clicking on the "Second" Tab Button to display second view controller:<br>
+Second VC - viewDidLoad<br>
+Second VC - viewWillAppear<br>
+First VC - viewWillDisappear<br>
+First VC - viewDidDisappear<br>
+Second VC - viewDidAppear<br>
+
 
 
 
