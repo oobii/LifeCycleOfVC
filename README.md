@@ -34,7 +34,6 @@ Running the app:<br>
 First VC - viewDidLoad<br>
 First VC - viewWillAppear<br>
 First VC - viewDidAppear<br>
-<br>
 After clicking on the "Second" Tab Button to display second view controller:<br>
 Second VC - viewDidLoad<br>
 Second VC - viewWillAppear<br>
