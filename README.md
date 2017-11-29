@@ -40,6 +40,13 @@ Second VC - viewWillAppear<br>
 First VC - viewWillDisappear<br>
 First VC - viewDidDisappear<br>
 Second VC - viewDidAppear<br>
+Then we click "First" Tab Button again:<br>
+First VC - viewWillAppear<br>
+Second VC - viewWillDisappear<br>
+Second VC - viewDidDisappear<br>
+First VC - viewDidAppear<br>
+
+Notice - no viewDidLoad() the second timex<br>
 <br>
 ![App screen](https://github.com/oobii/LifeCycleOfVC/blob/master/LifeCycleOfVC.png)
 
